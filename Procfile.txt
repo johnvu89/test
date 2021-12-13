@@ -1,1 +1,1 @@
-echo "web: python app:app"
+web: gunicorn run:app
